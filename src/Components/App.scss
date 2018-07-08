@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.currencyRow__item--red {
+  color: red;
+}
+
+.currencyRow__item--green {
+  color: green;
+}
+
+.cryptoTable {
+  width: 100%;
+}
+
+.currencyRow--grey {
+  background-color: #999999;
+}
+
+.currencyRow--white {
+  background-color: #FFFFFF;
+}
+
+.currencyRow__inputCell {
+  display: flex;
+  flex-direction: column;
+  input, button {
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px;
+  }
+  input {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  button {
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+}
+
+.singleCurrency {
+  width: 25%;
+  margin: 20px auto;
+  border: 2px #999999 solid;
+  padding: 20px;
+}
+
+.singleCurrency__item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.singleCurrency__item__key {
+  font-weight: bold;
+}
+
+.currencyValues__values__item--red {
+  color: red;
+}
+
+.currencyValues__values__item--green {
+  color: green;
+}
+
+.currencyValues {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.currencyValues__values {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.currencyValues__title {
+  text-align: center;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.currencyValues__values__item__key {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.currencyValues__values__item__value {
+  padding-top: 5px;
+  text-align: center;
+}
