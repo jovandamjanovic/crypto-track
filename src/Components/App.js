@@ -7,8 +7,8 @@ import './App.css';
 const App = () => (
   <Router>
     <div>
-      <Route exact path="/" component={CurrencyMain} />
-      <Route path="/currency/:currencyId" component={CurrencyComp} />
+      <Route exact path="/" render={() => <CurrencyMain />} />
+      <Route path="/currency/:currencyId" render={props => <CurrencyComp { ...props }/>} />
     </div>
   </Router>
 );
